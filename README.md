@@ -74,6 +74,7 @@ To run this text adventure game, you need to have the Java Development Kit (JDK)
     The game will start on the console, and you can start making choices.
 ## Interaction Example (Console Output)
 Here's a quick example of how an in-game interaction might look like:
+```
 Awal petualangan dimulai. Kamu berada di kota dan mendengar tentang Legenda Kota Hilang.
 A: Mencari peta kuno
 B: Bertanya kepada penduduk
@@ -165,6 +166,7 @@ INFO
 Nama: Rafly Zulfikar AlKautsar
 Health: 37
 XP: 97
+```
 ## Important Notes and Development Potential
 * **Game Over Condition:** Currently, the game ends when `makeChoice()` returns `null` (e.g. due to invalid input or `nextScene` being set to `null` at the end of the story path). However, the game does not explicitly stop when `player.getHealth()` reaches 0. It is strongly recommended to add a condition in `Story.play()` to check the player's health and display a “Game Over” message if health reaches 0, then end the game.
 * **Use of Items:** The `item` attribute in the `Character` class already exists, but has not been used in the game logic to affect the storyline or player state. This could be a future development area to add item interaction features.
