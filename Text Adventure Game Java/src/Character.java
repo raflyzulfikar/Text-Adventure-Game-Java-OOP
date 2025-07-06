@@ -1,7 +1,3 @@
-//NAMA: RAFLY ZULFIKAR ALKAUTSAR
-//NIM: 102022400192
-//KELAS: SI-48-08
-
 public class Character {
     String name; //Nama karakter
     int health; //Poin kesehatan karakter
